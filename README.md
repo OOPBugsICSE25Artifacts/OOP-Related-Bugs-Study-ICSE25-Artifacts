@@ -21,7 +21,7 @@ Pay attention that there's 8 source code files in the repository but 9 in our pa
 ---
 ## keywords
 ---
-This file involves the keyword set that we used to fliter OOP related bug reports from the repository. Note that we have manually reconfirmed the reports after getting them with script
+This file involves the keyword set that we used to fliter OOP related bug reports from the repository. Note that we have manually reconfirmed the reports after getting them with script.
 ---
 ## Detailed introduction of bug types
 ---

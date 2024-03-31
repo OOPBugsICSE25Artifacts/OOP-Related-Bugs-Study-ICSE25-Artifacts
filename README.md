@@ -14,9 +14,16 @@ This folder contains a summary form file that records the entire detailed inform
 
 ---
 
-This folder contains the real bugs that has not been discovered by other means in GCC and LLVM which we obtain from our cross-project validation experiment. The comment at the beginning of the file points out the compiler version that we discovered the bug. We have submitted bug reports for each of the tests in this folder
+This folder contains the real bugs that has not been discovered by other means in GCC and LLVM which we obtain from our cross-project validation experiment. The comment at the beginning of the file points out the compiler version that we discovered the bug. We have submitted bug reports for each of the tests in this folder.
+
+Pay attention that there's 8 source code files in the repository but 9 in our paper. This is because buggyfile #5 has been submitted twice on both compilers for accept invalid on LLVM and diagnostic error on GCC, as GCC correctly rejects the code but gives ambiguous error message.
 
 ---
 ## keywords
 ---
 This file involves the keyword set that we used to fliter OOP related bug reports from the repository. Note that we have manually reconfirmed the reports after getting them with script
+---
+## Detailed introduction of bug types
+---
+Here we produce the detailed classification basis of each of the bug types(and its sub type) in our empiricial study. Note that the first 4 categories(encapsulation, inheritance and polymorphism) have higher priority, which means they will be firstly chosen if there's any controversy on belonging of certain tests.
+

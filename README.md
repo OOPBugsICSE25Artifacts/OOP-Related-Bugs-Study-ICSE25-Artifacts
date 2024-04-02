@@ -1,6 +1,6 @@
 # OOP-Related-Bugs-Study-ICSE25-Artifacts
 This is the project repository of our ICSE 2025 research paper: A Comprehensive Study of OOP-Related Bugs in C++ Compilers.
-The project involves 2 folders and 1 summary table file(specifically 8 cpp source files and 2 forms).
+The project toally include 8 cpp source files, 2 summary forms and 2 text documents in 4 folders, whici is organized following the instruction below.
 
 
   
@@ -21,11 +21,11 @@ Pay attention that there's 8 source code files in the repository but 9 in our pa
   
 ## keywords
 ---
-This file involves the keyword set that we used to fliter OOP related bug reports from the repository. Note that we have manually reconfirmed the reports after getting them with script.
+This folder involves a summary table recording the keyword set that we used to fliter OOP related bug reports from the repository. Note that we have manually reconfirmed the reports after getting them with script.
 
 
   
-## Detailed introduction of bug types
+## supplement
 ---
-Here we produce the detailed classification basis of each of the bug types(and their sub types) in our empiricial study. Note that the first 4 categories(encapsulation, inheritance and polymorphism) have higher priority, which means they will be firstly chosen if there's any controversy on belonging of certain tests.
+Here we produce the supplementary material that is too long to introduce in our paper. Currently it contains 1 document that explains the detailed taxonomy of the bug types(and their sub types) in our empiricial study. Note that the first 4 categories(encapsulation, inheritance and polymorphism) have higher priority, which means they will be firstly chosen if there's any controversy on belonging of certain tests.
 

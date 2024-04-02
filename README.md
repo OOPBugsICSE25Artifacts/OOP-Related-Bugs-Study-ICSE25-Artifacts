@@ -16,7 +16,7 @@ This folder contains a summary form file that records the entire detailed inform
 
 This folder contains bug_triggered programs that have not been discovered by others in GCC and LLVM founded by our generation based testing tool, **OOPFuzz**. The comment at the beginning of the file points out the compiler version that we discovered the bug. We have submitted bug reports for each of the tests in this folder.
 
-Pay attention that there's 8 source code files in the repository but 9 in our paper. This is because test #5 has been submitted twice on both compilers for accept invalid on LLVM and diagnostic error on GCC, as GCC correctly rejects the code but gives ambiguous error message.
+Pay attention that there's 8 source code files in the repository but 9 in our paper. This is because test #4 has been submitted twice on both compilers for accept invalid on LLVM and diagnostic error on GCC, as GCC correctly rejects the code but gives ambiguous error message.
   
   
 ## keywords

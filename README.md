@@ -1,6 +1,6 @@
 # OOP-Related-Bugs-Study-ICSE25-Artifacts
 This is the project repository of our ICSE 2025 research paper: A Comprehensive Study of OOP-Related Bugs in C++ Compilers.
-The project involves 2 folders and 1 summary table file(precisely 8 c++ source files and 2 forms).
+The project involves 2 folders and 1 summary table file(specifically 8 cpp source files and 2 forms).
 
 
   
